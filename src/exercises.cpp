@@ -9,13 +9,13 @@ void exercise_1(string s1, string s2, string s3) {
 string>minStr;
 
 if (s1 <= s2 && s1 <= s3);
-minStr =s1;
+cin =s1;
 } else if (s2 <= s1 && s3);
-minStr =s2;
+cin =s2;
 } else {
-    minStr = s3;
+    cin = s3;
 }
-cout << minStr << endl;
+cout << cin << endl;
 }
 
 
