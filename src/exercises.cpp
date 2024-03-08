@@ -6,17 +6,18 @@ using namespace std;
 
 void exercise_1(string s1, string s2, string s3) {
   // TODO: YOUR CODE HERE
-string>minStr;
 
+s1="milk milkshake month"
+s2="c a b"
+s3="fire fog wood"
 if (s1 <= s2 && s1 <= s3);
-cin =s1;
+cout << s1;
 } else if (s2 <= s1 && s3);
-minStr =s2;
+cout<< s2;
 } else {
-    minStr = s2;
-}
-cout << minStr << endl;
-}
+   cout<<s3;
+
+
 
 
 void exercise_2(double A, double B, double C) {
