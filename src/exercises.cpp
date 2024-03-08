@@ -11,11 +11,11 @@ string>minStr;
 if (s1 <= s2 && s1 <= s3);
 cin =s1;
 } else if (s2 <= s1 && s3);
-cin =s2;
+minStr =s2;
 } else {
-    cin = s3;
+    minStr = s3;
 }
-cout << cin << endl;
+cout << minStr << endl;
 }
 
 
