@@ -10,13 +10,13 @@ void exercise_1(string s1, string s2, string s3) {
 s1="milk milkshake month";
 s2="c a b";
 s3="fire fog wood";
-if (s1 <= s2 && s1 <= s3);
-cout << s1;
-} else if (s2 <= s1 && s3);
-cout<< s2;
+if (s1 < s2 && s1 < s3){
+  cout << s1;
+} else if (s2 <= s1 && s1 < s3) {
+  cout<< s2;
 } else {
    cout<<s3;
-
+}
 
 
 
