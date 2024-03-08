@@ -13,7 +13,7 @@ cin =s1;
 } else if (s2 <= s1 && s3);
 minStr =s2;
 } else {
-    minStr = A;
+    minStr = s2;
 }
 cout << minStr << endl;
 }
