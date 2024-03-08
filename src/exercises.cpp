@@ -17,7 +17,7 @@ cin =s2;
 }
 cout << cin << endl;
 }
-
+return 0;
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
