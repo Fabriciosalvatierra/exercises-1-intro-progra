@@ -27,14 +27,6 @@ void exercise_2(double A, double B, double C) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-if (B == 0) {
-        cout << "Imposible" << endl;
-    } else {
-        cout << A / B << endl;
-    
-}
-
-
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
