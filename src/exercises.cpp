@@ -56,6 +56,9 @@ switch (dia) {
         case 5:
             cout << "Viernes" << endl;
             break;
+        case 6:
+            cout << "Sábado" << endl;
+            break;
         default:
             cout << "Invalid input" << endl;
     }
