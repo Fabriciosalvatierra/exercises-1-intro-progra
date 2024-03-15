@@ -40,6 +40,25 @@ void exercise_5(char character) {
 
 void exercise_6(int number) {
   // TODO: YOUR CODE HERE
+switch (dia) {
+        case 1:
+            cout << "Lunes" << endl;
+            break;
+        case 2:
+            cout << "Martes" << endl;
+            break;
+        case 3:
+            cout << "Miércoles" << endl;
+            break;
+        case 4:
+            cout << "Jueves" << endl;
+            break;
+        case 5:
+            cout << "Viernes" << endl;
+            break;
+        default:
+            cout << "Invalid input" << endl;
+    }
 }
 
 void exercise_7(double r) {
