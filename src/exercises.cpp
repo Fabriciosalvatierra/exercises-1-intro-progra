@@ -9,14 +9,16 @@ void exercise_1(string s1, string s2, string s3) {
 s1;
 s2;
 s3;   
-  if (s1 < s2 && s1 < s3) {
+if (s1 < s2 && s1 < s3) {
          cout << s1;
-    } else if (s2 < s1 && s2 < s3) {
+} else if (s2 < s1 && s2 < s3) {
          cout << s2;
-    } else {
+} else {
         cout << s3;
-    }
 }
+}
+
+
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
@@ -29,6 +31,7 @@ if (B == 0) {
     } else {
         cout << A / B << endl;
     }
+
 
 }
 
