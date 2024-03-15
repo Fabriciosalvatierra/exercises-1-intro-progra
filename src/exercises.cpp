@@ -7,11 +7,10 @@ using namespace std;
 void exercise_1(string s1, string s2, string s3) {
 // TODO: YOUR CODE HERE
 
-  s1;
-  s2;
-  s3;
-  
-   if (s1 < s2 && s1 < s3) {
+s1;
+s2;
+s3;   
+  if (s1 < s2 && s1 < s3) {
          cout << s1;
     } else if (s2 < s1 && s2 < s3) {
          cout << s2;
@@ -31,7 +30,7 @@ void exercise_3(int a, int b) {
 if (B == 0) {
         cout << "Imposible" << endl;
     } else {
-        cout << B / A << endl;
+        cout << A / B << endl;
     }
 
 }
