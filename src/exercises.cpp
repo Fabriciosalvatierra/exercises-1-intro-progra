@@ -16,6 +16,7 @@ if (s1 < s2 && s1 < s3) {
 } else {
         cout << s3;
 }
+
 }
 
 
@@ -30,7 +31,8 @@ if (B == 0) {
         cout << "Imposible" << endl;
     } else {
         cout << A / B << endl;
-    }
+    
+}
 
 
 }
