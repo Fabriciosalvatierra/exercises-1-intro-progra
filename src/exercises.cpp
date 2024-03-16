@@ -21,19 +21,7 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-double a, b, c;
-    cout << "Ingresa el valor de X^2" << endl;
-    cin >> a;
-    cout << "Ingresa el valor de X" << endl;
-    cin >> b;
-    cout << "Ingresa el valor de la constante" << endl;
-    cin >> c;
-    cuadratica(a, b, c);
-    return 0;
-}
-void cuadratica(double a, double b, double c)
-{
-    if (a == 0)
+if (a == 0)
     {
         double x = -c / b;
         cout << "Unico valor para X: " << x << endl;
