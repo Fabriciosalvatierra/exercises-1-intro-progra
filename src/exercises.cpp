@@ -21,24 +21,38 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-if (b * b - 4 * a * c < 0) 
-    {
-        divisor = 2 * a;
-        raiz = pow(-1 * (b * b - 4 * a * c), 0.5);
-        x1 = (-b + raiz) / divisor;
-        x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << " i" << ;
-        cout << "Valor para X2: " << x2 << " i" << ;
+if (a == 0) {
+        // Si a es igual a cero, la ecuación no es cuadrática
+        // se convierte en una ecuación lineal
+        if (b == 0) {
+            // Si b también es igual a cero, la ecuación es degenerada
+            cout << "La ecuación no es válida." << endl;
+        } else {
+            // Si b no es cero, la ecuación es lineal y tiene una solución única
+            double x = -c / b;
+            cout << "La solución es: x = " << x << endl;
+        }
+    } else {
+        // Si a no es cero, la ecuación es cuadrática y tiene dos soluciones
+        double discriminante = b * b - 4 * a * c;
+
+        if (discriminante < 0) {
+            // Si el discriminante es negativo, las soluciones son complejas
+            double parteReal = -b / (2 * a);
+            double parteImaginaria = sqrt(-discriminante) / (2 * a);
+            cout << "Las soluciones son complejas:" << endl;
+            cout << "x1 = " << parteReal << " + " << parteImaginaria << "i" << endl;
+            cout << "x2 = " << parteReal << " - " << parteImaginaria << "i" << endl;
+        } else {
+            // Si el discriminante es no negativo, las soluciones son reales
+            double x1 = (-b + sqrt(discriminante)) / (2 * a);
+            double x2 = (-b - sqrt(discriminante)) / (2 * a);
+            cout << "Las soluciones son reales:" << endl;
+            cout << "x1 = " << x1 << endl;
+            cout << "x2 = " << x2 << endl;
+        }
     }
-    else
-    {
-        divisor = 2 * a;
-        raiz = pow(b * b - 4 * a * c, 0.5);
-        x1 = (-b + raiz) / divisor;
-        x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << ;
-        cout << "Valor para X2: " << x2 << ;
-    }
+}
 }
 
 void exercise_3(int a, int b) {
