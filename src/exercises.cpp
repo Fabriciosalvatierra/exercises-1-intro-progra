@@ -25,21 +25,18 @@ if (discriminante < 0) {
             // Si el discriminante es negativo, las soluciones son complejas
             double parteReal = -b / (2 * a);
             double parteImaginaria = sqrt(-discriminante) / (2 * a);
-            cout << "Las soluciones son complejas:" << endl;
-            cout << "x1 = " << parteReal << " + " << parteImaginaria << "i" << endl;
-            cout << "x2 = " << parteReal << " - " << parteImaginaria << "i" << endl;
+            cout << "Las soluciones son complejas:" << ;
+            cout << "x1 = " << parteReal << " + " << parteImaginaria << "i" << ;
+            cout << "x2 = " << parteReal << " - " << parteImaginaria << "i" << ;
         } else {
             // Si el discriminante es no negativo, las soluciones son reales
             double x1 = (-b + sqrt(discriminante)) / (2 * a);
             double x2 = (-b - sqrt(discriminante)) / (2 * a);
-            cout << "Las soluciones son reales:" << endl;
-            cout << "x1 = " << x1 << endl;
-            cout << "x2 = " << x2 << endl;
+            cout << "Las soluciones son reales:" << ;
+            cout << "x1 = " << x1 << ;
+            cout << "x2 = " << x2 << ;
         }
-    }
 }
-}
-
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
 
