@@ -21,49 +21,17 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-if (a == 0) {
-        // Si a es igual a cero, la ecuación no es cuadrática, se convierte en una ecuación lineal
-        if (b == 0) {
-            // Si b también es igual a cero, la ecuación es degenerada
-            cout << "La ecuación no tiene solución." << ;
-        } else {
-            // Si b no es cero, la ecuación es lineal y tiene una solución única
-            double x = -c / b;
-            cout << "La solución es: X = " << x << ;
-        }
-    } else {
-        // Si a no es cero, la ecuación es cuadrática y tiene dos soluciones
-        double discriminante = b * b - 4 * a * c;
-
-        if (discriminante < 0) {
-            // Si el discriminante es negativo, las soluciones son complejas
-            double parteReal = -b / (2 * a);
-            double parteImaginaria = sqrt(-discriminante) / (2 * a);
-            cout << "Las soluciones son complejas:" << ;
-            cout << "X1 = " << parteReal << " + " << parteImaginaria << "i" << ;
-            cout << "X2 = " << parteReal << " - " << parteImaginaria << "i" << ;
-        } else {
-            // Si el discriminante es no negativo, las soluciones son reales
-            double x1 = (-b + sqrt(discriminante)) / (2 * a);
-            double x2 = (-b - sqrt(discriminante)) / (2 * a);
-            cout << "Las soluciones son reales:" << ;
-            cout << "X1 = " << x1 << ;
-            cout << "X2 = " << x2 << ;
-        }
+if (a == 0)
+    {
+        double x = -c / b;
+        cout << "Unico valor para X: " << x << endl;
+        return;
     }
-}
 
+}
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-  int A, B;
-    cin >> A >> B;
-
-    if (B == 0) {
-        cout << "Imposible" << endl;
-    } else {
-        cout << A / B << endl;
-    }
 
 }
 
