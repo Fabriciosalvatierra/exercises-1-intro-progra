@@ -24,8 +24,8 @@ void exercise_2(double A, double B, double C) {
 if (a == 0)
     {
         double x = -c / b;
-        cout << "Unico valor para X: " << x << 
-        return;
+        cout << "Unico valor para X: " << x << ;
+        
     }
     double divisor, raiz;
     int x1, x2;
@@ -37,8 +37,8 @@ if (a == 0)
         raiz = pow(-1 * (b * b - 4 * a * c), 0.5);
         x1 = (-b + raiz) / divisor;
         x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << " i" << 
-        cout << "Valor para X2: " << x2 << " i" << 
+        cout << "Valor para X1: " << x1 << " i" << ;
+        cout << "Valor para X2: " << x2 << " i" << ;
     }
     else
     {
@@ -46,18 +46,14 @@ if (a == 0)
         raiz = pow(b * b - 4 * a * c, 0.5);
         x1 = (-b + raiz) / divisor;
         x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << 
-        cout << "Valor para X2: " << x2 << 
+        cout << "Valor para X1: " << x1 << ;
+        cout << "Valor para X2: " << x2 << ;
     }
 }
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-if (B == 0) {
-        cout << "Imposible" << endl;
-    } else {
-        cout << A / B << endl;
-    }
+
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
