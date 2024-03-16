@@ -21,17 +21,7 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-if (a == 0)
-    {
-        double x = -c / b;
-        cout << "Unico valor para X: " << x << ;
-        
-    }
-    double divisor, raiz;
-    int x1, x2;
-    // pow(BASE, EXPONENTE)
-
-    if (b * b - 4 * a * c < 0) // raiz(b * b - 4 * a * c )
+if (b * b - 4 * a * c < 0) 
     {
         divisor = 2 * a;
         raiz = pow(-1 * (b * b - 4 * a * c), 0.5);
