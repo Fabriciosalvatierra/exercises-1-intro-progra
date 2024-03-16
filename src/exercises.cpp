@@ -24,7 +24,7 @@ void exercise_2(double A, double B, double C) {
 if (a == 0)
     {
         double x = -c / b;
-        cout << "Unico valor para X: " << x << endl;
+        cout << "Unico valor para X: " << x << 
         return;
     }
     double divisor, raiz;
@@ -37,8 +37,8 @@ if (a == 0)
         raiz = pow(-1 * (b * b - 4 * a * c), 0.5);
         x1 = (-b + raiz) / divisor;
         x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << " i" << endl;
-        cout << "Valor para X2: " << x2 << " i" << endl;
+        cout << "Valor para X1: " << x1 << " i" << 
+        cout << "Valor para X2: " << x2 << " i" << 
     }
     else
     {
@@ -46,8 +46,8 @@ if (a == 0)
         raiz = pow(b * b - 4 * a * c, 0.5);
         x1 = (-b + raiz) / divisor;
         x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << endl;
-        cout << "Valor para X2: " << x2 << endl;
+        cout << "Valor para X1: " << x1 << 
+        cout << "Valor para X2: " << x2 << 
     }
 }
 
