@@ -48,21 +48,25 @@ if (A == 0 && B != 0)
         {
             cout << x1 << " " << x2 << endl;
         }
-    }
 }
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-    if (B == 0) {
+    if (b == 0) {
         cout << "Imposible" << endl;
     } else {
-        cout << A / B << endl;
+        cout << a / b << endl;
     }
 }
-    int A, B;
-    cin >> A >> B;
 
-    calcularCociente(A, B);
+int main() {
+    int a, b;
+    cin >> a >> b;
+
+    calcularCociente(a, b);
+
+}
+
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
