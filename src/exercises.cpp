@@ -53,11 +53,6 @@ if (A == 0 && B != 0)
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-#include <iostream>
-
-using namespace std;
-
-void calcularCociente(int A, int B) {
     if (B == 0) {
         cout << "Imposible" << endl;
     } else {
