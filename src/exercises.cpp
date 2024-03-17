@@ -32,7 +32,7 @@ if (a == 0 && b != 0)
 
     if (b * b - 4 * a * c < 0 || (a == 0 && b == 0))
     {
-        cout << "" << endl;
+        cout << ""  ;
     }
     else
     {
