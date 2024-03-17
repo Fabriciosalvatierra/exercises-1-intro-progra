@@ -21,24 +21,18 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double a, double b, double c) {
   // TODO: YOUR CODE HERE
-if (a == 0)
+if (a == 0 && b != 0)
     {
         double x = -c / b;
-        cout << "Unico valor para X: " << x << endl;
+        cout << x << endl;
         return;
     }
     double divisor, raiz;
-    int x1, x2;
-    // pow(BASE, EXPONENTE)
+    double x1, x2;
 
-    if (b * b - 4 * a * c < 0) // raiz(b * b - 4 * a * c )
+    if (b * b - 4 * a * c < 0 || (a == 0 && b == 0))
     {
-        divisor = 2 * a;
-        raiz = pow(-1 * (b * b - 4 * a * c), 0.5);
-        x1 = (-b + raiz) / divisor;
-        x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << " i" << endl;
-        cout << "Valor para X2: " << x2 << " i" << endl;
+        cout << "" << endl;
     }
     else
     {
@@ -46,9 +40,15 @@ if (a == 0)
         raiz = pow(b * b - 4 * a * c, 0.5);
         x1 = (-b + raiz) / divisor;
         x2 = (-b - raiz) / divisor;
-        cout << "Valor para X1: " << x1 << endl;
-        cout << "Valor para X2: " << x2 << endl;
-    }  
+        if (x1 == x2)
+        {
+            cout << x1 << endl;
+        }
+        else
+        {
+            cout << x1 << " " << x2 << endl;
+        }
+    }
 }
 
 void exercise_3(int a, int b) {
