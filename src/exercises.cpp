@@ -58,9 +58,7 @@ void exercise_3(int a, int b) {
     } else {
         cout << a / b << endl;
     }
-}
-    int a, b;
-    cin >> a >> b;
+
 
     calcularCociente(a, b);
 
