@@ -21,13 +21,19 @@ if (s1 < s2 && s1 < s3) {
 
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
-if (a == 0)
-    {
-        double x = -c / b;
-        cout << "Unico valor para X: " << x << endl;
-        return;
+if (discriminante > 0) {
+        // Dos raíces reales distintas
+        double x1 = (-b + sqrt(discriminante)) / (2 * a);
+        double x2 = (-b - sqrt(discriminante)) / (2 * a);
+        cout << x1 << " " << x2 << endl;
+    } else if (discriminante == 0) {
+        // Una raíz real
+        double x = -b / (2 * a);
+        cout << x << endl;
+    } else {
+        // Raíces imaginarias (no reales)
+        cout << "No hay raíces reales" << endl;
     }
-
 }
 
 void exercise_3(int a, int b) {
