@@ -50,19 +50,14 @@ if (A == 0 && B != 0)
         }
     }
 }
+
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-int A, B;
-
-    // Lectura de entrada
-    cin >> A >> B;
-
-    // Verificación de si B es igual a 0
-    if (B == 0) {
+if (b == 0) {
         cout << "Imposible" << endl;
     } else {
         // Cálculo de la parte entera del cociente
-        cout << A / B << endl;
+        cout << a / b << endl;
     }
 
 }
