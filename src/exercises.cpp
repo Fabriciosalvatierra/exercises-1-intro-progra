@@ -19,7 +19,7 @@ if (s1 < s2 && s1 < s3) {
 
 }
 
-void exercise_2(double A, double B, double C) {
+void exercise_2(double a, double b, double c) {
   // TODO: YOUR CODE HERE
 if (a == 0)
     {
