@@ -59,15 +59,10 @@ void exercise_3(int a, int b) {
         cout << A / B << endl;
     }
 }
-
-int main() {
     int A, B;
     cin >> A >> B;
 
     calcularCociente(A, B);
-
-}
-
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
