@@ -48,6 +48,7 @@ if (A == 0 && B != 0)
         {
             cout << x1 << " " << x2 << endl;
         }
+    }
 }
 
 void exercise_3(int a, int b) {
@@ -64,8 +65,6 @@ int main() {
     cin >> a >> b;
 
     calcularCociente(a, b);
-
-}
 
 }
 
