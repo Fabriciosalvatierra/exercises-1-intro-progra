@@ -59,8 +59,6 @@ void exercise_3(int a, int b) {
         cout << a / b << endl;
     }
 }
-
-int main() {
     int a, b;
     cin >> a >> b;
 
