@@ -53,7 +53,14 @@ if (a == 0 && b != 0)
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-  
+ int A, B;
+    cin >> A >> B;
+
+    if (B == 0) {
+        cout << "Imposible" << endl;
+    } else {
+        cout << A / B << endl;
+    }
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
