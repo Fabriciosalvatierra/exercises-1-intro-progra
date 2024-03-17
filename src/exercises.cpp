@@ -53,15 +53,25 @@ if (A == 0 && B != 0)
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-cin >> a >> b;
+#include <iostream>
 
-    // Verificación de si B es igual a 0
-    if (b == 0) {
+using namespace std;
+
+void calcularCociente(int A, int B) {
+    if (B == 0) {
         cout << "Imposible" << endl;
     } else {
-        // Cálculo de la parte entera del cociente
-        cout << a / b << endl;
+        cout << A / B << endl;
     }
+}
+
+int main() {
+    int A, B;
+    cin >> A >> B;
+
+    calcularCociente(A, B);
+
+}
 
 }
 
