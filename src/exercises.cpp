@@ -43,6 +43,25 @@ void exercise_3(int a, int b) {
 
 void exercise_4(double n, double a, double b, double x, double y) {
   // TODO: YOUR CODE HERE
+cout << "Ingrese el costo original del producto (N): ";
+    cin >> N;
+    cout << "Ingrese el valor de A: ";
+    cin >> A;
+    cout << "Ingrese el valor de B: ";
+    cin >> B;
+    cout << "Ingrese el descuento X (%): ";
+    cin >> X;
+    cout << "Ingrese el descuento Y (%): ";
+    cin >> Y;
+    
+    if (N > A) { 
+        N -= N * (X / 100.0);
+    }
+    if (N > B) {
+        N -= N * (Y / 100.0);
+    }
+    cout << "El costo de compra del producto con descuento es: " << N << endl;
+    
 }
 
 void exercise_5(char character) {
