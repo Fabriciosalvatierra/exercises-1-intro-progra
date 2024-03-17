@@ -19,27 +19,27 @@ if (s1 < s2 && s1 < s3) {
 
 }
 
-void exercise_2(double a, double b, double c) {
+void exercise_2(double A, double B, double B) {
   // TODO: YOUR CODE HERE
-if (a == 0 && b != 0)
+if (A == 0 && B != 0)
     {
-        double x = -c / b;
+        double x = -C / B;
         cout << x << endl;
         return;
     }
     double divisor, raiz;
     double x1, x2;
 
-    if (b * b - 4 * a * c < 0 || (a == 0 && b == 0))
+    if (B * B - 4 * A * C < 0 || (A == 0 && B == 0))
     {
         cout << ""  ;
     }
     else
     {
-        divisor = 2 * a;
-        raiz = pow(b * b - 4 * a * c, 0.5);
-        x1 = (-b + raiz) / divisor;
-        x2 = (-b - raiz) / divisor;
+        divisor = 2 * A;
+        raiz = pow(B * B - 4 * A * C, 0.5);
+        x1 = (-B + raiz) / divisor;
+        x2 = (-B - raiz) / divisor;
         if (x1 == x2)
         {
             cout << x1 << endl;
