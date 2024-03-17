@@ -38,6 +38,14 @@ if (discriminante > 0) {
 
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
+    int A, B;
+    cin >> A >> B;
+
+    if (B == 0) {
+        cout << "Imposible" << endl;
+    } else {
+        cout << A / B << endl;
+    }
 
 }
 
@@ -66,7 +74,18 @@ cout << "Ingrese el costo original del producto (N): ";
 
 void exercise_5(char character) {
   // TODO: YOUR CODE HERE
-
+char caracter;
+    
+    cout << "Ingrese un caracter: ";
+    cin >> caracter;
+    
+    if (caracter >= 'A' && caracter <= 'Z') {
+        cout << "El caracter ingresado es una letra mayuscula." << endl;
+    } else if (caracter >= 'a' && caracter <= 'z') {
+        cout << "El caracter ingresado es una letra minuscula." << endl;
+    } else {
+        cout << "El caracter ingresado no es una letra." << endl;
+    }
 }
 
 void exercise_6(int number) {
