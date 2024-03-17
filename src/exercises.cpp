@@ -52,7 +52,7 @@ if (A == 0 && B != 0)
 }
 void exercise_3(int a, int b) {
   // TODO: YOUR CODE HERE
-int A,B;
+int A, B;
 
     // Lectura de entrada
     cin >> A >> B;
@@ -64,7 +64,6 @@ int A,B;
         // Cálculo de la parte entera del cociente
         cout << A / B << endl;
     }
-
 
 }
 
