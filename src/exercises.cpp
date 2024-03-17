@@ -22,17 +22,17 @@ if (s1 < s2 && s1 < s3) {
 void exercise_2(double A, double B, double C) {
   // TODO: YOUR CODE HERE
 if (discriminante > 0) {
-        // Dos raíces reales distintas
+        
         double x1 = (-b + sqrt(discriminante)) / (2 * a);
         double x2 = (-b - sqrt(discriminante)) / (2 * a);
-        cout << x1 << " " << x2 << endl;
+        cout << x1 << " " << x2 << ;
     } else if (discriminante == 0) {
         // Una raíz real
         double x = -b / (2 * a);
-        cout << x << endl;
+        cout << x << ;
     } else {
-        // Raíces imaginarias (no reales)
-        cout << "No hay raíces reales" << endl;
+        
+        cout << "No hay raíces reales" << ;
     }
 }
 
