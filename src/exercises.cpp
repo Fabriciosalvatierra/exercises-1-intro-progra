@@ -61,7 +61,40 @@ void exercise_3(int a, int b) {
 
 
     calcularCociente(a, b);
+nt current_day = 1;
 
+    for (int day = 1; day <= 31; ++day) {
+        if (current_day == 1) {
+           
+            for (int i = 1; i < n; ++i) {
+               cout << "   ";
+            }
+        }
+
+        if (current_day < 10) {
+            cout << " ";
+        }
+
+        if (current_day > k) {
+            cout << "- "; 
+        } else {
+            cout << current_day << " ";
+        }
+
+        
+        if (current_day % 7 == (8 - n) % 7) {
+            
+            cout << std::endl;
+        }
+
+        if (current_day == k) {
+            break; 
+        }
+
+        ++current_day;
+    }
+
+    cout << endl;
 }
 
 void exercise_4(double n, double a, double b, double x, double y) {
